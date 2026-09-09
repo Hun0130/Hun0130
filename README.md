@@ -2,7 +2,7 @@
 
 **Postdoctoral Researcher at DGIST · ROS 2 middleware and reliable robotic systems**
 
-I build tools to understand and improve how robots communicate. My research connects **ROS 2, DDS, and Zenoh** with **Cyber-Physical AI**: making intelligent systems work under real network and resource constraints.
+I build tools for robot communication and middleware that helps learned controllers operate reliably. My research connects **ROS 2, DDS, and Zenoh** with **Cyber-Physical AI**: making intelligent systems work under real network and resource constraints.
 
 [Website](https://hun0130.github.io/) · [Google Scholar](https://scholar.google.co.kr/citations?user=W2iqqvAAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/sanghoon-lee-1b5929301) · [Email](mailto:leesh2913@dgist.ac.kr)
 
@@ -11,10 +11,12 @@ I build tools to understand and improve how robots communicate. My research conn
 | Project | What you can do with it | Explore |
 | --- | --- | --- |
 | **[ros2probe](https://github.com/csi-dgist/ros2probe)** | Inspect ROS 2 middleware traffic, reconstruct the graph, and examine topic metrics through a CLI or desktop GUI. | [Demo & project page](https://csi-dgist.github.io/ros2probe-page/) · [Install](https://github.com/csi-dgist/ros2probe#install) |
+| **[ROS 2 Harness Profile](https://github.com/csi-dgist/ros2-harness-profile)** | Constrain learned-controller outputs, reject stale commands, and switch to a fallback through ROS 2 interfaces. | [Project & experiments](https://csi-dgist.github.io/ros2-harness-profile/) · [Paper](https://arxiv.org/abs/2606.09416) |
 | **[DDS Optimizer](https://github.com/csi-dgist/DDS-Optimizer-for-Wireless-Large-Payload-Transfer)** | Generate DDS XML profiles for large-payload communication over wireless networks. | [Code & usage](https://github.com/csi-dgist/DDS-Optimizer-for-Wireless-Large-Payload-Transfer) · [Paper](https://arxiv.org/abs/2508.11366) |
 | **[QoS Guard](https://github.com/csi-dgist/QoS-Guard)** | Check ROS 2 QoS configurations for conflicts before deployment. | [Documentation](https://csi-dgist.github.io/QoS-Guard/) · [Paper](https://arxiv.org/abs/2509.03381) |
+| **[LIMA](https://github.com/csi-dgist/LIMA)** | Coordinate dense multi-robot traffic using global routes and local intersection control; simulate and replay warehouse scenarios. | [Project page](https://csi-dgist.github.io/LIMA-page/) · [Code & usage](https://github.com/csi-dgist/LIMA) |
 
-These projects are developed with collaborators at **[DGIST CSI Lab](https://github.com/csi-dgist)**. I am a co-author and project contact for ros2probe, and first author of the linked wireless DDS optimization and QoS Guard papers. The project pages credit the research teams.
+These projects are developed with collaborators at **[DGIST CSI Lab](https://github.com/csi-dgist)**. I am a **co-first author and project contact for ros2probe**, a **co-first author of LIMA**, and the **first author** of the Harness Engineering, wireless DDS optimization, and QoS Guard papers. The linked papers and project pages credit the full research teams.
 
 <a href="https://csi-dgist.github.io/ros2probe-page/">
   <img src="https://raw.githubusercontent.com/csi-dgist/ros2probe/main/docs/demo-gui.gif" alt="ros2probe desktop demo showing the ROS graph, topic metrics, and recording" width="760">
@@ -28,8 +30,10 @@ These projects are developed with collaborators at **[DGIST CSI Lab](https://git
 
 ## Papers with research code
 
-| Research | Publication | Code |
+| Research | Publication / status | Code & project |
 | --- | --- | --- |
+| [Harness Engineering for Physical AI: Robot Middleware Is the Harness Layer](https://arxiv.org/abs/2606.09416) | ACM Middleware 2026, Big Ideas · accepted | [ROS 2 Harness Profile](https://github.com/csi-dgist/ros2-harness-profile) · [Project & experiments](https://csi-dgist.github.io/ros2-harness-profile/) |
+| [LIMA: Local Intersection Marshalling Architecture for Scale-Independent Multi-Agent Path Finding in Dense Warehouses](https://csi-dgist.github.io/LIMA-page/) | Research manuscript | [Code](https://github.com/csi-dgist/LIMA) · [Project page](https://csi-dgist.github.io/LIMA-page/) · [Page source](https://github.com/csi-dgist/LIMA-page) |
 | [Deep Reinforcement Learning-driven Scheduling in Multijob Serial Lines: A Case Study in Automotive Parts Assembly](https://ieeexplore.ieee.org/document/10210628) | IEEE Transactions on Industrial Informatics, 2024 | [PSE_DQN](https://github.com/Hun0130/PSE_DQN) |
 | [Real-Time Controller Reconfiguration for Delay-Resilient Cyber-Physical Systems](https://ieeexplore.ieee.org/document/9896851) | IEEE Access, 2022 | [Dynamic-gain-for-delay](https://github.com/Hun0130/Dynamic-gain-for-delay) |
 
